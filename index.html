@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Local</title>
+    <link rel="stylesheet" href="./style.css" />
+
+    <script type="module" src="/main.js"></script>
+  </head>
+  <body>
+    <div class="flex-parent-element">
+      <div class="flex-child-element">
+        <input type="file" id="daj_world" accept=".daj" />
+      </div>
+      <div class="flex-child-element"><div id="progress"></div></div>
+    </div>
+
+    <iframe
+      id="dev-url"
+      width="100%"
+      allow="xr-spatial-tracking"
+      allowfullscreen=""
+    ></iframe>
+  </body>
+</html>
